@@ -1,0 +1,27 @@
+[
+  {
+    "type": "track",
+    "track": {
+      "_key": "kRhySMoqI-6f",
+      "definition_id": "kRhySMoqI-6f",
+      "title": "Default track",
+      "key": "Defaulttrack",
+      "start_coordinates": {
+        "x": 250,
+        "y": 250
+      },
+      "end_coordinates": {
+        "x": 800,
+        "y": 250
+      },
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2023-11-30T15:52:36.868Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2023-11-30T15:52:36.868Z"
+      }
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "type": "clinical_note",
+    "clinical_note": {
+      "_key": "dHaG_n3KqPJE",
+      "definition_id": "dHaG_n3KqPJE",
+      "narratives": [
+        {
+          "body": "[{\"type\":\"p\",\"children\":[{\"text\":\"\"},{\"type\":\"dynamic-variable\",\"variableId\":\"yR6_LtzzDUEu\",\"value\":\"happiness\",\"children\":[{\"text\":\"{{{dynamic_variable:yR6_LtzzDUEu}}}\"}],\"status\":\"VALID\"},{\"text\":\"\"}]}]",
+          "constant_ids": [],
+          "dynamic_variable_ids": [
+            "yR6_LtzzDUEu"
+          ],
+          "html_body": "<p class=\"slate-p\"><span>{{{dynamic_variable:yR6_LtzzDUEu}}}</span></p>",
+          "id": "u2Q4x6Js2D3z",
+          "key": "asfdf",
+          "stakeholder_ids": [],
+          "title": "asfd"
+        }
+      ],
+      "context": [],
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-02-09T18:55:55.028Z"
+      },
+      "last_updated": {
+        "date": "2024-02-09T18:56:29.428Z",
+        "user_id": "DlyKaTavL2CUsGNtPYO_1"
+      }
+    }
+  }
+]

@@ -1,0 +1,142 @@
+[
+  {
+    "type": "question",
+    "question": {
+      "_key": "VMpNq42VQ_OY",
+      "definition_id": "VMpNq42VQ_OY",
+      "form_definition_id": "w6HFD7T5fet8",
+      "questionType": "no_input",
+      "userQuestionType": "description",
+      "key": "typePChildrenTextThisFormShouldBeCompletedByThePatient",
+      "title": "[{\"type\":\"p\",\"children\":[{\"text\":\"This Form should be completed by the Patient\"}]}]",
+      "options": [],
+      "questionConfig": {
+        "recode_enabled": false,
+        "mandatory": false
+      },
+      "created": {
+        "user_id": "OVxHmoH2I0hdA8_eeWag7",
+        "date": "2023-11-24T13:16:38.115Z"
+      },
+      "last_updated": {
+        "date": "2024-03-22T13:39:59.069Z",
+        "user_id": "OVxHmoH2I0hdA8_eeWag7"
+      },
+      "title_html": "<p class=\"slate-p\">This Form should be completed by the Patient</p>"
+    }
+  },
+  {
+    "type": "question",
+    "question": {
+      "_key": "WyYgcz2qmkam",
+      "definition_id": "WyYgcz2qmkam",
+      "form_definition_id": "w6HFD7T5fet8",
+      "dataPointValueType": "boolean",
+      "questionType": "input",
+      "userQuestionType": "yes_no",
+      "key": "isPatientHappy",
+      "title": "Is patient Happy",
+      "options": [],
+      "questionConfig": {
+        "mandatory": true,
+        "recode_enabled": false
+      },
+      "created": {
+        "user_id": "OVxHmoH2I0hdA8_eeWag7",
+        "date": "2023-11-24T13:17:13.520Z"
+      },
+      "last_updated": {
+        "date": "2023-11-24T13:22:05.870Z",
+        "user_id": "OVxHmoH2I0hdA8_eeWag7"
+      },
+      "metadata": {
+        "slate": "[{\"type\":\"code_block\",\"lang\":\"json\",\"children\":[{\"type\":\"code_line\",\"children\":[{\"text\":\"{}\"}]}]}]",
+        "plaintext": "{}"
+      }
+    }
+  },
+  {
+    "type": "question",
+    "question": {
+      "_key": "uwkBTXdvWo_1",
+      "definition_id": "uwkBTXdvWo_1",
+      "form_definition_id": "w6HFD7T5fet8",
+      "dataPointValueType": "number",
+      "questionType": "input",
+      "userQuestionType": "slider",
+      "key": "happy",
+      "title": "How happy is the patient (0 -  1)",
+      "options": [],
+      "questionConfig": {
+        "mandatory": false,
+        "recode_enabled": false,
+        "slider": {
+          "display_marks": true,
+          "is_value_tooltip_on": false,
+          "max": 10,
+          "max_label": "Sublime Beatitudo",
+          "min": 0,
+          "min_label": "Super duper unhappy",
+          "show_min_max_values": true,
+          "step_value": 1
+        }
+      },
+      "created": {
+        "user_id": "OVxHmoH2I0hdA8_eeWag7",
+        "date": "2023-11-24T13:17:32.509Z"
+      },
+      "last_updated": {
+        "date": "2024-03-22T13:41:58.582Z",
+        "user_id": "OVxHmoH2I0hdA8_eeWag7"
+      }
+    }
+  },
+  {
+    "type": "question",
+    "question": {
+      "_key": "gR2C3_GZw4bF",
+      "definition_id": "gR2C3_GZw4bF",
+      "form_definition_id": "w6HFD7T5fet8",
+      "dataPointValueType": "strings_array",
+      "questionType": "multiple_choice",
+      "userQuestionType": "multiple_select",
+      "key": "whatIsYourFavoriteColor",
+      "title": "What is your favorite color",
+      "options": [
+        {
+          "id": "wco0yHAgDiot",
+          "value": "option_1",
+          "label": "Orange"
+        },
+        {
+          "id": "slBkG4Rel6k2",
+          "value": "option_2",
+          "label": "Green"
+        },
+        {
+          "id": "eBmwpdXMPlvC",
+          "value": "option_3",
+          "label": "Blue"
+        },
+        {
+          "id": "D5bcuuUVfwiQ",
+          "value": "option_4",
+          "label": "Black"
+        }
+      ],
+      "questionConfig": {
+        "mandatory": true,
+        "recode_enabled": false,
+        "use_select": false
+      },
+      "created": {
+        "user_id": "OVxHmoH2I0hdA8_eeWag7",
+        "date": "2024-04-04T07:39:44.990Z"
+      },
+      "last_updated": {
+        "date": "2024-04-04T07:40:19.419Z",
+        "user_id": "OVxHmoH2I0hdA8_eeWag7"
+      }
+    }
+  }
+]

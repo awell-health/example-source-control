@@ -1,0 +1,23 @@
+[
+  {
+    "type": "trigger",
+    "trigger": {
+      "_key": "eVG93chYawLN",
+      "definition_id": "eVG93chYawLN",
+      "pathway_id": "xjUdrKvscUmq",
+      "target_id": "kRhySMoqI-6f",
+      "target_type": "track",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2023-11-30T15:52:36.912Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2023-11-30T15:52:36.956Z"
+      },
+      "settings": {
+        "type": "pathway_started"
+      }
+    }
+  }
+]

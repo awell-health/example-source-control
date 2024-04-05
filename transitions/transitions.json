@@ -1,0 +1,52 @@
+[
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "yggR6KQ1n8V1",
+      "definition_id": "yggR6KQ1n8V1",
+      "origin": {
+        "type": "track_start",
+        "node_id": "kRhySMoqI-6f"
+      },
+      "destination": {
+        "type": "step",
+        "node_id": "c88enO1VGE1m"
+      },
+      "rule_definition_id": "AzP_pNOUlFM5",
+      "default": false,
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2023-11-30T15:52:45.395Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2023-11-30T15:52:45.395Z"
+      }
+    }
+  },
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "UTAuHflozMrX",
+      "definition_id": "UTAuHflozMrX",
+      "origin": {
+        "type": "step",
+        "node_id": "c88enO1VGE1m"
+      },
+      "destination": {
+        "type": "track_end",
+        "node_id": "kRhySMoqI-6f"
+      },
+      "rule_definition_id": "jGUAYr1zrKvC",
+      "default": false,
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2023-11-30T15:52:46.973Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2023-11-30T15:52:46.973Z"
+      }
+    }
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "type": "step",
+    "step": {
+      "_key": "c88enO1VGE1m",
+      "type": "step",
+      "definition_id": "c88enO1VGE1m",
+      "title": "step 1",
+      "key": "step1",
+      "label_definition_ids": [],
+      "action_definition_ids": [
+        "whnqx_1BXUZK",
+        "cKMFqOp-W1LA"
+      ],
+      "track_definition_id": "kRhySMoqI-6f",
+      "coordinates": {
+        "x": 416,
+        "y": 336
+      },
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2023-11-30T15:52:42.741Z"
+      },
+      "last_updated": {
+        "date": "2024-02-09T18:55:55.007Z",
+        "user_id": "DlyKaTavL2CUsGNtPYO_1"
+      },
+      "documentation": {
+        "content": {
+          "en": "[{\"type\":\"p\",\"children\":[{\"text\":\"cut a hole in the box\"}]}]"
+        },
+        "format": "slate"
+      }
+    }
+  }
+]

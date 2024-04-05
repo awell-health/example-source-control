@@ -1,0 +1,36 @@
+[
+  {
+    "type": "rule",
+    "rule": {
+      "_key": "AzP_pNOUlFM5",
+      "definition_id": "AzP_pNOUlFM5",
+      "conditions": [],
+      "boolean_operator": "and",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2023-11-30T15:52:45.395Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2023-11-30T15:52:45.395Z"
+      }
+    }
+  },
+  {
+    "type": "rule",
+    "rule": {
+      "_key": "jGUAYr1zrKvC",
+      "definition_id": "jGUAYr1zrKvC",
+      "conditions": [],
+      "boolean_operator": "and",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2023-11-30T15:52:46.973Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2023-11-30T15:52:46.973Z"
+      }
+    }
+  }
+]

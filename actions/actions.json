@@ -1,0 +1,47 @@
+[
+  {
+    "type": "action",
+    "action": {
+      "_key": "whnqx_1BXUZK",
+      "definition_id": "whnqx_1BXUZK",
+      "title": "Form",
+      "step_definition_id": "c88enO1VGE1m",
+      "stakeholder_definition_ids": [
+        "7f0KSxNUtMu_"
+      ],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-02-09T18:55:44.782Z"
+      },
+      "type": "form",
+      "last_updated": {
+        "date": "2024-02-09T18:55:50.922Z",
+        "user_id": "DlyKaTavL2CUsGNtPYO_1"
+      },
+      "form_definition_id": "w6HFD7T5fet8",
+      "form_display_mode": "conversational"
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "cKMFqOp-W1LA",
+      "definition_id": "cKMFqOp-W1LA",
+      "title": "Clinical note",
+      "step_definition_id": "c88enO1VGE1m",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-02-09T18:55:54.991Z"
+      },
+      "type": "clinical_note",
+      "last_updated": {
+        "date": "2024-02-09T18:55:55.040Z",
+        "user_id": "DlyKaTavL2CUsGNtPYO_1"
+      },
+      "clinical_note_definition_id": "dHaG_n3KqPJE"
+    }
+  }
+]

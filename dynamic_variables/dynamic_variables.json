@@ -1,0 +1,22 @@
+[
+  {
+    "type": "dynamic_variable",
+    "dynamic_variable": {
+      "_key": "yR6_LtzzDUEu",
+      "definition_id": "yR6_LtzzDUEu",
+      "transformations": [],
+      "data_point_definition_id": "t62-dRoJgDrc",
+      "data_point_property": "value",
+      "fallback": "",
+      "label": "happiness",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-02-09T18:56:28.039Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-02-09T18:56:28.039Z"
+      }
+    }
+  }
+]
