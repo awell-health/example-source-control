@@ -1,0 +1,35 @@
+name: Continuous Integration
+
+on:
+  push:
+    branches:
+      - main
+jobs:
+  sample-test:
+    name: Test and deploy care flow
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        id: checkout
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        id: install
+        run: npm install
+
+      - name: Test
+        id: npm-test
+        run: npm run test
+
+      # Runs on successful tests ✅
+      - name: Set published release as live
+        id: set-live
+        uses: awell-health/set-careflow-live@v1.0.0
+        with:
+          api-key: ${{ secrets.DEVELOPMENT_API_KEY }}
+          environment: development
+
+      - name: Print output
+        id: output
+        run: echo "Care flow with release ID ${{ steps.set-live.outputs.release_id }} is now live."
