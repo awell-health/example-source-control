@@ -25,7 +25,7 @@ jobs:
       # Runs on successful tests ✅
       - name: Set published release as live
         id: set-live
-        uses: awell-health/set-careflow-live@v1.0.0
+        uses: awell-health/set-careflow-live@v1.0.1
         with:
           api-key: ${{ secrets.DEVELOPMENT_API_KEY }}
           awell-environment: development
