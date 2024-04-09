@@ -43,32 +43,5 @@
       },
       "clinical_note_definition_id": "dHaG_n3KqPJE"
     }
-  },
-  {
-    "type": "action",
-    "action": {
-      "_key": "iEfo3O6me9uB",
-      "definition_id": "iEfo3O6me9uB",
-      "title": "Message",
-      "step_definition_id": "GKKMh-B1ziyl",
-      "stakeholder_definition_ids": [
-        "7f0KSxNUtMu_"
-      ],
-      "location_definition_ids": [],
-      "created": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-04-09T02:24:19.749Z"
-      },
-      "type": "message",
-      "last_updated": {
-        "date": "2024-04-09T02:24:38.750Z",
-        "user_id": "DlyKaTavL2CUsGNtPYO_1"
-      },
-      "message_definition_id": "Grav1FSJTsiy",
-      "idle_time": {
-        "unit": "minute",
-        "amount": 1
-      }
-    }
   }
 ]

@@ -518,46 +518,6 @@
   {
     "type": "data_point_definition",
     "data_point_definition": {
-      "_key": "GKKMh-B1ziyl-COMPLETION",
-      "definition_id": "GKKMh-B1ziyl-COMPLETION",
-      "key": "CompletionDate",
-      "source_definition_id": "GKKMh-B1ziyl",
-      "category": "step",
-      "valueType": "date",
-      "created": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-04-09T02:23:48.770Z"
-      },
-      "last_updated": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-04-09T02:23:48.770Z"
-      },
-      "qualified_key": "Newstep.CompletionDate"
-    }
-  },
-  {
-    "type": "data_point_definition",
-    "data_point_definition": {
-      "_key": "GKKMh-B1ziyl-ACTIVATION",
-      "definition_id": "GKKMh-B1ziyl-ACTIVATION",
-      "key": "ActivationDate",
-      "source_definition_id": "GKKMh-B1ziyl",
-      "category": "step",
-      "valueType": "date",
-      "created": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-04-09T02:23:48.770Z"
-      },
-      "last_updated": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-04-09T02:23:48.770Z"
-      },
-      "qualified_key": "Newstep.ActivationDate"
-    }
-  },
-  {
-    "type": "data_point_definition",
-    "data_point_definition": {
       "_key": "WyYgcz2qmkam",
       "definition_id": "WyYgcz2qmkam",
       "source_definition_id": "w6HFD7T5fet8",

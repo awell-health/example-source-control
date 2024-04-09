@@ -32,46 +32,5 @@
         "date": "2023-11-30T15:52:46.973Z"
       }
     }
-  },
-  {
-    "type": "rule",
-    "rule": {
-      "_key": "7hbyuLPSNH7V",
-      "definition_id": "7hbyuLPSNH7V",
-      "conditions": [
-        {
-          "id": "YfX9sStEfN85",
-          "operand": null,
-          "operator": "is_true",
-          "reference": "WyYgcz2qmkam"
-        }
-      ],
-      "boolean_operator": "and",
-      "created": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-04-09T02:23:54.370Z"
-      },
-      "last_updated": {
-        "date": "2024-04-09T02:24:14.085Z",
-        "user_id": "DlyKaTavL2CUsGNtPYO_1"
-      }
-    }
-  },
-  {
-    "type": "rule",
-    "rule": {
-      "_key": "91edF4ii68Cc",
-      "definition_id": "91edF4ii68Cc",
-      "conditions": [],
-      "boolean_operator": "and",
-      "created": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-04-09T02:23:56.191Z"
-      },
-      "last_updated": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-04-09T02:23:56.191Z"
-      }
-    }
   }
 ]

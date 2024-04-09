@@ -28,35 +28,5 @@
         "date": "2023-11-30T15:52:46.986Z"
       }
     }
-  },
-  {
-    "type": "timing",
-    "timing": {
-      "_key": "XuvLNyia_Twt",
-      "definition_id": "XuvLNyia_Twt",
-      "created": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-04-09T02:23:54.384Z"
-      },
-      "last_updated": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-04-09T02:23:54.384Z"
-      }
-    }
-  },
-  {
-    "type": "timing",
-    "timing": {
-      "_key": "mf5GbQQ5YOcp",
-      "definition_id": "mf5GbQQ5YOcp",
-      "created": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-04-09T02:23:56.205Z"
-      },
-      "last_updated": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-04-09T02:23:56.205Z"
-      }
-    }
   }
 ]
