@@ -1,0 +1,40 @@
+[
+  {
+    "type": "extension_webhook",
+    "extension_webhook": {
+      "_key": "xjUdrKvscUmq-elation_patientCreatedOrUpdated",
+      "definition_id": "xjUdrKvscUmq-elation_patientCreatedOrUpdated",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-08T23:41:25.581Z"
+      },
+      "extension": "elation",
+      "webhook_key": "patientCreatedOrUpdated",
+      "endpoint_url": "elation/webhook/xjUdrKvscUmq-elation_patientCreatedOrUpdated",
+      "pathway_definition_id": "xjUdrKvscUmq",
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-08T23:41:25.581Z"
+      }
+    }
+  },
+  {
+    "type": "extension_webhook",
+    "extension_webhook": {
+      "_key": "xjUdrKvscUmq-elation_appointmentCreatedOrUpdated",
+      "definition_id": "xjUdrKvscUmq-elation_appointmentCreatedOrUpdated",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-08T23:41:25.581Z"
+      },
+      "extension": "elation",
+      "webhook_key": "appointmentCreatedOrUpdated",
+      "endpoint_url": "elation/webhook/xjUdrKvscUmq-elation_appointmentCreatedOrUpdated",
+      "pathway_definition_id": "xjUdrKvscUmq",
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-08T23:41:25.581Z"
+      }
+    }
+  }
+]

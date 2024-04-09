@@ -16,8 +16,48 @@
         "date": "2023-11-30T15:52:36.795Z"
       },
       "last_updated": {
-        "date": "2024-04-05T04:05:17.151Z",
+        "date": "2024-04-08T23:41:25.581Z",
         "user_id": "DlyKaTavL2CUsGNtPYO_1"
+      },
+      "plugins": {
+        "elation": {
+          "base_url": {
+            "label": "Base URL",
+            "value": "asdf",
+            "obfuscated": false,
+            "id": "zXhhxNJUblRz"
+          },
+          "auth_url": {
+            "label": "Authorization URL",
+            "value": "asdf",
+            "obfuscated": false,
+            "id": "7Ov8WvZnl4HY"
+          },
+          "client_id": {
+            "label": "Client ID",
+            "value": "asdf",
+            "obfuscated": false,
+            "id": "1cmT6icMcJB_"
+          },
+          "client_secret": {
+            "label": "Client Secret",
+            "value": "U2FsdGVkX1/77b4hbsxXtUsM8qqjTbHKKiq+O/9vpk4=",
+            "obfuscated": true,
+            "id": "RAlQ9D7Ygshn"
+          },
+          "username": {
+            "label": "Username",
+            "value": "asdf",
+            "obfuscated": false,
+            "id": "RfbLV9kxzrBV"
+          },
+          "password": {
+            "label": "Password",
+            "value": "U2FsdGVkX1+ZQvIEC+PAozAVR/JlEoOHGHK6U48MZEc=",
+            "obfuscated": true,
+            "id": "hBw8sMEEetIM"
+          }
+        }
       }
     }
   }

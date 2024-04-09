@@ -438,6 +438,46 @@
   {
     "type": "data_point_definition",
     "data_point_definition": {
+      "_key": "xjUdrKvscUmq-elation_patientCreatedOrUpdated-patientId",
+      "category": "extension_webhook",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-08T23:41:25.581Z"
+      },
+      "definition_id": "xjUdrKvscUmq-elation_patientCreatedOrUpdated-patientId",
+      "key": "patientId",
+      "source_definition_id": "xjUdrKvscUmq-elation_patientCreatedOrUpdated",
+      "valueType": "number",
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-08T23:41:25.581Z"
+      },
+      "qualified_key": "elation.patientCreatedOrUpdated.patientId"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "xjUdrKvscUmq-elation_appointmentCreatedOrUpdated-appointmentId",
+      "category": "extension_webhook",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-08T23:41:25.581Z"
+      },
+      "definition_id": "xjUdrKvscUmq-elation_appointmentCreatedOrUpdated-appointmentId",
+      "key": "appointmentId",
+      "source_definition_id": "xjUdrKvscUmq-elation_appointmentCreatedOrUpdated",
+      "valueType": "number",
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-08T23:41:25.581Z"
+      },
+      "qualified_key": "elation.appointmentCreatedOrUpdated.appointmentId"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
       "_key": "c88enO1VGE1m-ACTIVATION",
       "definition_id": "c88enO1VGE1m-ACTIVATION",
       "key": "ActivationDate",
@@ -473,6 +513,46 @@
         "date": "2023-11-30T15:52:42.741Z"
       },
       "qualified_key": "step1.CompletionDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "GKKMh-B1ziyl-COMPLETION",
+      "definition_id": "GKKMh-B1ziyl-COMPLETION",
+      "key": "CompletionDate",
+      "source_definition_id": "GKKMh-B1ziyl",
+      "category": "step",
+      "valueType": "date",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-09T02:23:48.770Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-09T02:23:48.770Z"
+      },
+      "qualified_key": "Newstep.CompletionDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "GKKMh-B1ziyl-ACTIVATION",
+      "definition_id": "GKKMh-B1ziyl-ACTIVATION",
+      "key": "ActivationDate",
+      "source_definition_id": "GKKMh-B1ziyl",
+      "category": "step",
+      "valueType": "date",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-09T02:23:48.770Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-09T02:23:48.770Z"
+      },
+      "qualified_key": "Newstep.ActivationDate"
     }
   },
   {

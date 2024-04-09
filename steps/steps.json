@@ -32,5 +32,32 @@
         "format": "slate"
       }
     }
+  },
+  {
+    "type": "step",
+    "step": {
+      "_key": "GKKMh-B1ziyl",
+      "type": "step",
+      "definition_id": "GKKMh-B1ziyl",
+      "title": "New step",
+      "key": "Newstep",
+      "label_definition_ids": [],
+      "action_definition_ids": [
+        "iEfo3O6me9uB"
+      ],
+      "track_definition_id": "kRhySMoqI-6f",
+      "coordinates": {
+        "x": 816,
+        "y": 464
+      },
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-09T02:23:48.770Z"
+      },
+      "last_updated": {
+        "date": "2024-04-09T02:24:19.761Z",
+        "user_id": "DlyKaTavL2CUsGNtPYO_1"
+      }
+    }
   }
 ]
