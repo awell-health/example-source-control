@@ -27,8 +27,8 @@
   {
     "type": "transition",
     "transition": {
-      "_key": "UTAuHflozMrX",
-      "definition_id": "UTAuHflozMrX",
+      "_key": "MK-nsjRbHx38",
+      "definition_id": "MK-nsjRbHx38",
       "origin": {
         "type": "step",
         "node_id": "c88enO1VGE1m"
@@ -37,15 +37,15 @@
         "type": "track_end",
         "node_id": "kRhySMoqI-6f"
       },
-      "rule_definition_id": "jGUAYr1zrKvC",
+      "rule_definition_id": "p8uNRUk7zOVS",
       "default": false,
       "created": {
         "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2023-11-30T15:52:46.973Z"
+        "date": "2024-04-12T22:27:32.406Z"
       },
       "last_updated": {
         "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2023-11-30T15:52:46.973Z"
+        "date": "2024-04-12T22:27:32.406Z"
       }
     }
   }

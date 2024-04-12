@@ -19,17 +19,17 @@
   {
     "type": "rule",
     "rule": {
-      "_key": "jGUAYr1zrKvC",
-      "definition_id": "jGUAYr1zrKvC",
+      "_key": "p8uNRUk7zOVS",
+      "definition_id": "p8uNRUk7zOVS",
       "conditions": [],
       "boolean_operator": "and",
       "created": {
         "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2023-11-30T15:52:46.973Z"
+        "date": "2024-04-12T22:27:32.406Z"
       },
       "last_updated": {
         "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2023-11-30T15:52:46.973Z"
+        "date": "2024-04-12T22:27:32.406Z"
       }
     }
   }

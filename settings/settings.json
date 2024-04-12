@@ -16,46 +16,46 @@
         "date": "2023-11-30T15:52:36.795Z"
       },
       "last_updated": {
-        "date": "2024-04-08T23:41:25.581Z",
+        "date": "2024-04-12T22:34:35.688Z",
         "user_id": "DlyKaTavL2CUsGNtPYO_1"
       },
       "plugins": {
         "elation": {
-          "base_url": {
-            "label": "Base URL",
-            "value": "asdf",
-            "obfuscated": false,
-            "id": "zXhhxNJUblRz"
-          },
           "auth_url": {
+            "id": "7Ov8WvZnl4HY",
             "label": "Authorization URL",
-            "value": "asdf",
             "obfuscated": false,
-            "id": "7Ov8WvZnl4HY"
+            "value": "https://sandbox.elationemr.com/api/2.0/oauth2/token"
+          },
+          "base_url": {
+            "id": "zXhhxNJUblRz",
+            "label": "Base URL",
+            "obfuscated": false,
+            "value": "https://sandbox.elationemr.com/api/2.0"
           },
           "client_id": {
+            "id": "1cmT6icMcJB_",
             "label": "Client ID",
-            "value": "asdf",
             "obfuscated": false,
-            "id": "1cmT6icMcJB_"
+            "value": "Qq0oymgbCUJJeDE30zvAOCiZRnvDGWv5dx0vWW9t"
           },
           "client_secret": {
+            "id": "RAlQ9D7Ygshn",
             "label": "Client Secret",
-            "value": "U2FsdGVkX1/77b4hbsxXtUsM8qqjTbHKKiq+O/9vpk4=",
             "obfuscated": true,
-            "id": "RAlQ9D7Ygshn"
-          },
-          "username": {
-            "label": "Username",
-            "value": "asdf",
-            "obfuscated": false,
-            "id": "RfbLV9kxzrBV"
+            "value": "U2FsdGVkX19KQrb2HBK3J9UZkMMmdbKejLQF7qpmFv2MLEbC3/yW4Hx9kG32iURvLbJRWjd4iYwj0nXHp07RpcZ2jQGw5R0c7nPUDimKB5vjrGvrnvKim9QI7b8566kbzyrwD3dgOp5Bi8tDGPe0DrG6s5Ip3AoOW9O/whr4gsw="
           },
           "password": {
+            "id": "hBw8sMEEetIM",
             "label": "Password",
-            "value": "U2FsdGVkX1+ZQvIEC+PAozAVR/JlEoOHGHK6U48MZEc=",
             "obfuscated": true,
-            "id": "hBw8sMEEetIM"
+            "value": "U2FsdGVkX1/NBDfsQqdJjxVsFlrDt8YSG/Szo1TWxygL3zxLnXoxfTF8qBsWCXRMFVTnkXmjLuylhzfGOhcKvg=="
+          },
+          "username": {
+            "id": "RfbLV9kxzrBV",
+            "label": "Username",
+            "obfuscated": false,
+            "value": "4069-563@api.elationemr.com"
           }
         }
       }

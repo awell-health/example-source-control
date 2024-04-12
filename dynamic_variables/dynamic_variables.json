@@ -38,5 +38,25 @@
         "date": "2024-04-08T23:39:09.687Z"
       }
     }
+  },
+  {
+    "type": "dynamic_variable",
+    "dynamic_variable": {
+      "_key": "UoEhhIJEFqQs",
+      "definition_id": "UoEhhIJEFqQs",
+      "transformations": [],
+      "data_point_definition_id": "phq_9.PHQ9_SCORE",
+      "data_point_property": "value",
+      "fallback": "",
+      "label": "PHQ 9 Score",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-12T22:40:12.165Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-12T22:40:12.165Z"
+      }
+    }
   }
 ]
