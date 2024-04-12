@@ -26,27 +26,6 @@
   {
     "type": "action",
     "action": {
-      "_key": "cKMFqOp-W1LA",
-      "definition_id": "cKMFqOp-W1LA",
-      "title": "Clinical note",
-      "step_definition_id": "c88enO1VGE1m",
-      "stakeholder_definition_ids": [],
-      "location_definition_ids": [],
-      "created": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-02-09T18:55:54.991Z"
-      },
-      "type": "clinical_note",
-      "last_updated": {
-        "date": "2024-02-09T18:55:55.040Z",
-        "user_id": "DlyKaTavL2CUsGNtPYO_1"
-      },
-      "clinical_note_definition_id": "dHaG_n3KqPJE"
-    }
-  },
-  {
-    "type": "action",
-    "action": {
       "_key": "oAzWhF65KJyy",
       "definition_id": "oAzWhF65KJyy",
       "title": "Calculation",

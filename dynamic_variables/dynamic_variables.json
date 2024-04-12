@@ -2,46 +2,6 @@
   {
     "type": "dynamic_variable",
     "dynamic_variable": {
-      "_key": "yR6_LtzzDUEu",
-      "definition_id": "yR6_LtzzDUEu",
-      "transformations": [],
-      "data_point_definition_id": "t62-dRoJgDrc",
-      "data_point_property": "value",
-      "fallback": "",
-      "label": "happiness",
-      "created": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-02-09T18:56:28.039Z"
-      },
-      "last_updated": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-02-09T18:56:28.039Z"
-      }
-    }
-  },
-  {
-    "type": "dynamic_variable",
-    "dynamic_variable": {
-      "_key": "c_0XcVQJTa_9",
-      "definition_id": "c_0XcVQJTa_9",
-      "transformations": [],
-      "data_point_definition_id": "_lw5pSHtzFHB",
-      "data_point_property": "value",
-      "fallback": "",
-      "label": "asdf",
-      "created": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-04-08T23:39:09.687Z"
-      },
-      "last_updated": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-04-08T23:39:09.687Z"
-      }
-    }
-  },
-  {
-    "type": "dynamic_variable",
-    "dynamic_variable": {
       "_key": "UoEhhIJEFqQs",
       "definition_id": "UoEhhIJEFqQs",
       "transformations": [],
