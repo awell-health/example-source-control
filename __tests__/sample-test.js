@@ -1,20 +1,36 @@
 const steps = require("../steps/steps.json");
 const actions = require("../actions/actions.json");
-describe("Sample test", () => {
-  it("should pass", () => {
-    expect(1).toBe(1);
+const tracks = require("../tracks/tracks.json");
+describe("Default track", () => {
+  const track = tracks.find((t) => t.track.title === "Default track");
+  const stepOne = steps.find((s) => s.step.title === "step 1");
+
+  it("Default track exists", async () => {
+    expect(track).toBeDefined();
   });
-  it("expect there to be only a single step", async () => {
-    expect(steps.length).toBe(1);
-  });
-  it("expect only two actions in the step", async () => {
-    expect(steps[0].step.action_definition_ids.length).toBe(2);
-  });
-  it("expect the first action to be a form", async () => {
-    const actionDefinitionId = steps[0].step.action_definition_ids[0];
-    const actionDefinition = actions.find(
-      (a) => a.action.definition_id === actionDefinitionId
+
+  describe("Step 1", () => {
+    const actionIds = stepOne.step.action_definition_ids;
+    const stepActions = actionIds.map((id) =>
+      actions.find((a) => a.action.definition_id === id)
     );
-    expect(actionDefinition.action.type).toBe("form");
+
+    it("step 1 exists", () => {
+      expect(stepOne).toBeDefined();
+    });
+
+    it("step 1 action order", async () => {
+      /**
+       * the actions in the first step:
+       * 1. create a form
+       * 2. perform a calculation
+       * 3. send the calculation result to elation
+       */
+
+      expect(stepActions.length).toBe(3);
+      expect(stepActions[0].action.type).toBe("form");
+      expect(stepActions[1].action.type).toBe("calculation");
+      expect(stepActions[2].action.type).toBe("plugin");
+    });
   });
 });
