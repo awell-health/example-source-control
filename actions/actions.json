@@ -129,11 +129,15 @@
           "required": false
         },
         {
+          "description": "Comma-separated list of tags IDs",
           "id": "tags",
           "label": "Tags",
-          "description": "Comma-separated list of tags IDs",
+          "options": {
+            "data_point_definition_ids": []
+          },
+          "required": false,
           "type": "string",
-          "required": false
+          "value": ""
         },
         {
           "description": "Text of a note",
@@ -162,9 +166,15 @@
           "valueType": "number"
         }
       ],
-      "extension_data_point_mappings": [],
+      "extension_data_point_mappings": [
+        {
+          "extension_data_point_key": "nonVisitNoteId",
+          "id": "sClKl_7otCuM",
+          "data_point_definition_id": "0zqNNgql7gB6"
+        }
+      ],
       "last_updated": {
-        "date": "2024-04-12T23:07:21.690Z",
+        "date": "2024-04-13T04:28:45.593Z",
         "user_id": "DlyKaTavL2CUsGNtPYO_1"
       }
     }
@@ -334,12 +344,12 @@
           "description": "The author of a note. Should be the ID of a User in Elation.",
           "id": "authorId",
           "label": "Author",
-          "required": true,
-          "type": "numeric",
-          "value": "141127177601026",
           "options": {
             "data_point_definition_ids": []
-          }
+          },
+          "required": true,
+          "type": "numeric",
+          "value": "6389"
         },
         {
           "id": "category",
@@ -349,11 +359,15 @@
           "required": false
         },
         {
+          "description": "Comma-separated list of tags IDs",
           "id": "tags",
           "label": "Tags",
-          "description": "Comma-separated list of tags IDs",
+          "required": false,
           "type": "string",
-          "required": false
+          "value": "140737493860698",
+          "options": {
+            "data_point_definition_ids": []
+          }
         },
         {
           "description": "Text of a note",
@@ -386,7 +400,7 @@
       ],
       "extension_data_point_mappings": [],
       "last_updated": {
-        "date": "2024-04-13T00:12:13.321Z",
+        "date": "2024-04-13T04:44:07.222Z",
         "user_id": "DlyKaTavL2CUsGNtPYO_1"
       }
     }

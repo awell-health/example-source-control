@@ -16,7 +16,7 @@
         "date": "2023-11-30T15:52:36.795Z"
       },
       "last_updated": {
-        "date": "2024-04-13T03:49:22.477Z",
+        "date": "2024-04-13T03:54:28.588Z",
         "user_id": "DlyKaTavL2CUsGNtPYO_1"
       },
       "plugins": {
@@ -43,13 +43,13 @@
             "id": "RAlQ9D7Ygshn",
             "label": "Client Secret",
             "obfuscated": true,
-            "value": "U2FsdGVkX19KQrb2HBK3J9UZkMMmdbKejLQF7qpmFv2MLEbC3/yW4Hx9kG32iURvLbJRWjd4iYwj0nXHp07RpcZ2jQGw5R0c7nPUDimKB5vjrGvrnvKim9QI7b8566kbzyrwD3dgOp5Bi8tDGPe0DrG6s5Ip3AoOW9O/whr4gsw="
+            "value": "U2FsdGVkX1/KYAnwgA0D++NfOBUtyK1LJiU8nmkHuBbO7sNzx10P456X7VJ5jaiVObWWFb2MYosmaTyyvfeNx4R5N/k1eD2GwM26I2JlnXVKMInlB/Q9so/GnAPC0KKtSAyq/U1UlSayPRd2yTqIMjxIMQfK0OkfA5AjNnC1GdA="
           },
           "password": {
             "id": "hBw8sMEEetIM",
             "label": "Password",
             "obfuscated": true,
-            "value": "U2FsdGVkX1/NBDfsQqdJjxVsFlrDt8YSG/Szo1TWxygL3zxLnXoxfTF8qBsWCXRMFVTnkXmjLuylhzfGOhcKvg=="
+            "value": "U2FsdGVkX18UXxFiW44x65eEISPrPztq6tbuf63rWkfzM5wIcD9zvvBX929fvdzC+9s7SMC0WiovSqSdmf7aiw=="
           },
           "username": {
             "id": "RfbLV9kxzrBV",

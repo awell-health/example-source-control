@@ -442,6 +442,28 @@
   {
     "type": "data_point_definition",
     "data_point_definition": {
+      "_key": "0zqNNgql7gB6",
+      "definition_id": "0zqNNgql7gB6",
+      "source_definition_id": "xjUdrKvscUmq",
+      "category": "extension_action",
+      "key": "nonVisitNoteId",
+      "valueType": "number",
+      "possibleValues": [],
+      "optional": false,
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-13T04:27:07.125Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-13T04:27:07.125Z"
+      },
+      "qualified_key": "nonVisitNoteId"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
       "_key": "kRhySMoqI-6f-COMPLETION",
       "definition_id": "kRhySMoqI-6f-COMPLETION",
       "key": "CompletionDate",
