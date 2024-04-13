@@ -441,7 +441,7 @@
           },
           "required": true,
           "type": "string",
-          "value": "jonathan@awellhealth.c"
+          "value": "jonathan@awellhealth.com"
         },
         {
           "description": "The subject of your email.",
@@ -477,7 +477,7 @@
       "extension_data_points": [],
       "extension_data_point_mappings": [],
       "last_updated": {
-        "date": "2024-04-13T00:16:06.260Z",
+        "date": "2024-04-13T03:49:40.839Z",
         "user_id": "DlyKaTavL2CUsGNtPYO_1"
       }
     }

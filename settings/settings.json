@@ -16,7 +16,7 @@
         "date": "2023-11-30T15:52:36.795Z"
       },
       "last_updated": {
-        "date": "2024-04-13T00:14:42.064Z",
+        "date": "2024-04-13T03:49:22.477Z",
         "user_id": "DlyKaTavL2CUsGNtPYO_1"
       },
       "plugins": {
@@ -25,7 +25,7 @@
             "id": "7Ov8WvZnl4HY",
             "label": "Authorization URL",
             "obfuscated": false,
-            "value": "https://sandbox.elationemr.com/api/2.0/oauth2/token"
+            "value": "https://sandbox.elationemr.com/api/2.0/oauth2/token/"
           },
           "base_url": {
             "id": "zXhhxNJUblRz",
@@ -60,40 +60,40 @@
         },
         "mailgun": {
           "apiKey": {
+            "id": "yfisv5-KemoP",
             "label": "API Key",
-            "value": "U2FsdGVkX1+s+/iYQNRAKZfv5iyA+FDDQZhRhhdwwpIW3PONIEMuG1aMUV/vFlq9mNHl4+hxMKiecfvEtJL25DuBm/I+jQ2pqxyb9ssUeNo=",
             "obfuscated": true,
-            "id": "yfisv5-KemoP"
+            "value": "U2FsdGVkX1+s+/iYQNRAKZfv5iyA+FDDQZhRhhdwwpIW3PONIEMuG1aMUV/vFlq9mNHl4+hxMKiecfvEtJL25DuBm/I+jQ2pqxyb9ssUeNo="
           },
           "domain": {
+            "id": "LYGMVGBS385Z",
             "label": "Domain",
-            "value": "staging.awellhealth.com",
             "obfuscated": false,
-            "id": "LYGMVGBS385Z"
-          },
-          "fromName": {
-            "label": "From name",
-            "value": "Awell example flow",
-            "obfuscated": false,
-            "id": "7qWnefyBayrF"
+            "value": "staging.awellhealth.com"
           },
           "fromEmail": {
+            "id": "pCFU5S4es-2H",
             "label": "From email",
-            "value": "jonathan+example-flow@awellhealth.com",
             "obfuscated": false,
-            "id": "pCFU5S4es-2H"
+            "value": "jonathan+example-flow@awellhealth.com"
+          },
+          "fromName": {
+            "id": "7qWnefyBayrF",
+            "label": "From name",
+            "obfuscated": false,
+            "value": "Awell example flow"
           },
           "region": {
+            "id": "qVJe9_fOdy7B",
             "label": "Region",
-            "value": "US",
             "obfuscated": false,
-            "id": "qVJe9_fOdy7B"
+            "value": "US"
           },
           "testMode": {
+            "id": "8Of_Gy6hnSR0",
             "label": "Test mode",
-            "value": "Yes",
             "obfuscated": false,
-            "id": "8Of_Gy6hnSR0"
+            "value": "Yes"
           }
         }
       }
