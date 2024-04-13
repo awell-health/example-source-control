@@ -9,6 +9,7 @@
       "key": "step1",
       "label_definition_ids": [],
       "action_definition_ids": [
+        "2VxVXQT2WYIx",
         "whnqx_1BXUZK",
         "oAzWhF65KJyy",
         "n8Fq5ly2ik5L"
@@ -23,7 +24,7 @@
         "date": "2023-11-30T15:52:42.741Z"
       },
       "last_updated": {
-        "date": "2024-04-12T22:35:50.164Z",
+        "date": "2024-04-13T00:16:13.883Z",
         "user_id": "DlyKaTavL2CUsGNtPYO_1"
       },
       "documentation": {
@@ -31,6 +32,35 @@
           "en": "[{\"type\":\"p\",\"children\":[{\"text\":\"cut a hole in the box\"}]}]"
         },
         "format": "slate"
+      }
+    }
+  },
+  {
+    "type": "step",
+    "step": {
+      "_key": "sVZ0mh8mqOyT",
+      "type": "step",
+      "definition_id": "sVZ0mh8mqOyT",
+      "title": "PHQ-9 over 10",
+      "key": "PHQ-9over10",
+      "label_definition_ids": [],
+      "action_definition_ids": [
+        "flzgsbV32RKl",
+        "qutv5z08uUhY",
+        "KbIwDbJGcRqI"
+      ],
+      "track_definition_id": "kRhySMoqI-6f",
+      "coordinates": {
+        "x": 464,
+        "y": 496
+      },
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-13T00:01:23.766Z"
+      },
+      "last_updated": {
+        "date": "2024-04-13T00:14:51.390Z",
+        "user_id": "DlyKaTavL2CUsGNtPYO_1"
       }
     }
   }

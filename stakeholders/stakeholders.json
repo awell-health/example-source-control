@@ -9,5 +9,16 @@
       },
       "clinical_app_role": "Patient"
     }
+  },
+  {
+    "type": "stakeholder",
+    "stakeholder": {
+      "_key": "LGH3v741vUqm",
+      "definition_id": "LGH3v741vUqm",
+      "label": {
+        "en": "Physician"
+      },
+      "clinical_app_role": "Physician"
+    }
   }
 ]

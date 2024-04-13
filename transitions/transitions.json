@@ -48,5 +48,55 @@
         "date": "2024-04-12T22:27:32.406Z"
       }
     }
+  },
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "RTYnNoou2N4L",
+      "definition_id": "RTYnNoou2N4L",
+      "origin": {
+        "type": "step",
+        "node_id": "c88enO1VGE1m"
+      },
+      "destination": {
+        "type": "step",
+        "node_id": "sVZ0mh8mqOyT"
+      },
+      "rule_definition_id": "h72iVMDhbTNl",
+      "default": false,
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-13T00:01:31.045Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-13T00:01:31.045Z"
+      }
+    }
+  },
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "OS2Ppv6_328U",
+      "definition_id": "OS2Ppv6_328U",
+      "origin": {
+        "type": "step",
+        "node_id": "sVZ0mh8mqOyT"
+      },
+      "destination": {
+        "type": "track_end",
+        "node_id": "kRhySMoqI-6f"
+      },
+      "rule_definition_id": "oVPJ-61qPVbu",
+      "default": false,
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-13T00:03:48.626Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-13T00:03:48.626Z"
+      }
+    }
   }
 ]

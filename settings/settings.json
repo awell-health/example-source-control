@@ -16,7 +16,7 @@
         "date": "2023-11-30T15:52:36.795Z"
       },
       "last_updated": {
-        "date": "2024-04-12T22:34:35.688Z",
+        "date": "2024-04-13T00:14:42.064Z",
         "user_id": "DlyKaTavL2CUsGNtPYO_1"
       },
       "plugins": {
@@ -56,6 +56,44 @@
             "label": "Username",
             "obfuscated": false,
             "value": "4069-563@api.elationemr.com"
+          }
+        },
+        "mailgun": {
+          "apiKey": {
+            "label": "API Key",
+            "value": "U2FsdGVkX1+s+/iYQNRAKZfv5iyA+FDDQZhRhhdwwpIW3PONIEMuG1aMUV/vFlq9mNHl4+hxMKiecfvEtJL25DuBm/I+jQ2pqxyb9ssUeNo=",
+            "obfuscated": true,
+            "id": "yfisv5-KemoP"
+          },
+          "domain": {
+            "label": "Domain",
+            "value": "staging.awellhealth.com",
+            "obfuscated": false,
+            "id": "LYGMVGBS385Z"
+          },
+          "fromName": {
+            "label": "From name",
+            "value": "Awell example flow",
+            "obfuscated": false,
+            "id": "7qWnefyBayrF"
+          },
+          "fromEmail": {
+            "label": "From email",
+            "value": "jonathan+example-flow@awellhealth.com",
+            "obfuscated": false,
+            "id": "pCFU5S4es-2H"
+          },
+          "region": {
+            "label": "Region",
+            "value": "US",
+            "obfuscated": false,
+            "id": "qVJe9_fOdy7B"
+          },
+          "testMode": {
+            "label": "Test mode",
+            "value": "Yes",
+            "obfuscated": false,
+            "id": "8Of_Gy6hnSR0"
           }
         }
       }
