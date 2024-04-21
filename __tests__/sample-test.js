@@ -32,9 +32,10 @@ describe("Default track", () => {
     it("step 1 action order", async () => {
       /**
        * the actions in the first step:
-       * 1. create a form
-       * 2. perform a calculation
-       * 3. send the calculation result to elation
+       * 1. get patient information
+       * 2. patient completes the phq-9
+       * 3. perform a calculation
+       * 4. send the calculation result to the EHR
        */
 
       expect(stepActions.length).toBe(4);

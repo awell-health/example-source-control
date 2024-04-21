@@ -22,6 +22,16 @@ jobs:
         id: npm-test
         run: npm run test
 
+      - name: Validate Care Flow Logic
+        id: validate
+        uses: awell-health/action-validate@v1.0.1
+        with:
+          api_key: ${{ secrets.DEVELOPMENT_API_KEY }}
+          awell_endpoint: https://api.development.awellhealth.com/design/m2m/graphql
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          filename: validation.yaml
+          careflow_id: xjUdrKvscUmq
+
       # Runs on successful tests ✅
       - name: Set published release as live
         id: set-live

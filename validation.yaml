@@ -1,0 +1,43 @@
+cases:
+  - title: Logic test
+    description: |
+      This is a test case that checks if the logic is correct.
+    activities:
+      - type: form
+        key: phq9
+        questions:
+          - key: PHQ9_Q01
+            value: "1"
+          - key: PHQ9_Q02
+            value: "1"
+          - key: PHQ9_Q03
+            value: "1"
+          - key: PHQ9_Q04
+            value: "1"
+          - key: PHQ9_Q05
+            value: "1"
+          - key: PHQ9_Q06
+            value: "1"
+          - key: PHQ9_Q07
+            value: "1"
+          - key: PHQ9_Q08
+            value: "1"
+          - key: PHQ9_Q09
+            value: "1"
+      - type: checklist
+        name: checky
+      - type: checklist
+        name: checky cheese
+
+    validate:
+      - type: step
+        name: step 1
+        action: ACTIVATE
+      - type: step
+        name: step 1
+        action: COMPLETE
+      - type: step
+        name: PHQ-9 over 10
+        action: DISCARDED
+      - type: careflow
+        action: COMPLETE
