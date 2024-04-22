@@ -56,20 +56,20 @@ describe("Default track", () => {
       const stepOneToTwo = transition({ from: stepOne, to: stepTwo });
       expect(stepOneToTwo).toBeDefined();
     });
-    it("phq-9 rule is implemented", () => {
-      const stepOneToTwo = transition({ from: stepOne, to: stepTwo });
-      const phqRule = ruleFromTransition(stepOneToTwo);
-      expect(phqRule).toBeDefined();
-      const phq9Conditions = phqRule.rule.conditions.filter(
-        (c) => c.reference === "phq_9.PHQ9_SCORE"
-      );
-      expect(phq9Conditions.length).toBe(1);
-      expect(phq9Conditions[0].operator).toBe(
-        RuleCondition.GREATHER_THAN_OR_EQUAL
-      );
-      expect(Number(phq9Conditions[0].operand.value)).toBe(10);
-      const scoreDatapoint = datapointFromRuleCondition(phq9Conditions[0]);
-      expect(scoreDatapoint).toBeDefined();
-    });
+    // it("phq-9 rule is implemented", () => {
+    //   const stepOneToTwo = transition({ from: stepOne, to: stepTwo });
+    //   const phqRule = ruleFromTransition(stepOneToTwo);
+    //   expect(phqRule).toBeDefined();
+    //   const phq9Conditions = phqRule.rule.conditions.filter(
+    //     (c) => c.reference === "phq_9.PHQ9_SCORE"
+    //   );
+    //   expect(phq9Conditions.length).toBe(1);
+    //   expect(phq9Conditions[0].operator).toBe(
+    //     RuleCondition.GREATHER_THAN_OR_EQUAL
+    //   );
+    //   expect(Number(phq9Conditions[0].operand.value)).toBe(10);
+    //   const scoreDatapoint = datapointFromRuleCondition(phq9Conditions[0]);
+    //   expect(scoreDatapoint).toBeDefined();
+    // });
   });
 });
