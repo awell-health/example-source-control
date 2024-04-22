@@ -38,6 +38,6 @@ cases:
         action: COMPLETE
       - type: step
         name: PHQ-9 over 10
-        action: DISCARDED
+        action: COMPLETE
       - type: careflow
         action: COMPLETE
