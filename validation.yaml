@@ -24,6 +24,13 @@ cases:
             value: "1"
           - key: PHQ9_Q09
             value: "1"
+      - type: form
+        key: phq9Followup
+        questions:
+          - key: doesThePatientWantAReferral
+            value: "yes"
+          - key: pleaseWriteANoteForTheReferral
+            value: "give the patient a referral"
       - type: checklist
         name: checky
       - type: checklist
