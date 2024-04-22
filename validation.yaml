@@ -7,7 +7,7 @@ cases:
         name: phq9
         questions:
           - key: PHQ9_Q01
-            value: "1"
+            value: "2"
           - key: PHQ9_Q02
             value: "1"
           - key: PHQ9_Q03
