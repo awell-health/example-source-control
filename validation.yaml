@@ -4,7 +4,7 @@ cases:
       This is a test case that checks if the logic is correct.
     activities:
       - type: form
-        key: phq9
+        name: phq9
         questions:
           - key: PHQ9_Q01
             value: "1"
@@ -25,7 +25,7 @@ cases:
           - key: PHQ9_Q09
             value: "1"
       - type: form
-        key: phq9Followup
+        name: PHQ-9 Followup
         questions:
           - key: doesThePatientWantAReferral
             value: "yes"
