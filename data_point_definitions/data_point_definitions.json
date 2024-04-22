@@ -624,6 +624,46 @@
   {
     "type": "data_point_definition",
     "data_point_definition": {
+      "_key": "D5rbE-bdnoAT-ACTIVATION",
+      "definition_id": "D5rbE-bdnoAT-ACTIVATION",
+      "key": "ActivationDate",
+      "source_definition_id": "D5rbE-bdnoAT",
+      "category": "step",
+      "valueType": "date",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-22T22:02:17.501Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-22T22:02:17.501Z"
+      },
+      "qualified_key": "Newstep.ActivationDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "D5rbE-bdnoAT-COMPLETION",
+      "definition_id": "D5rbE-bdnoAT-COMPLETION",
+      "key": "CompletionDate",
+      "source_definition_id": "D5rbE-bdnoAT",
+      "category": "step",
+      "valueType": "date",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-22T22:02:17.501Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-22T22:02:17.501Z"
+      },
+      "qualified_key": "Newstep.CompletionDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
       "_key": "phq_9.PHQ9_SCORE",
       "definition_id": "phq_9.PHQ9_SCORE",
       "source_definition_id": "phq_9",

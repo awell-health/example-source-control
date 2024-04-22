@@ -63,5 +63,30 @@
         "user_id": "DlyKaTavL2CUsGNtPYO_1"
       }
     }
+  },
+  {
+    "type": "step",
+    "step": {
+      "_key": "D5rbE-bdnoAT",
+      "type": "step",
+      "definition_id": "D5rbE-bdnoAT",
+      "title": "New step",
+      "key": "Newstep",
+      "label_definition_ids": [],
+      "action_definition_ids": [],
+      "track_definition_id": "kRhySMoqI-6f",
+      "coordinates": {
+        "x": 736,
+        "y": 32
+      },
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-22T22:02:17.501Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-22T22:02:17.501Z"
+      }
+    }
   }
 ]
