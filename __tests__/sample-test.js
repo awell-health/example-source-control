@@ -38,11 +38,13 @@ describe("Default track", () => {
        * 4. send the calculation result to the EHR
        */
 
-      expect(stepActions.length).toBe(4);
+      expect(stepActions.length).toBe(6);
       expect(stepActions[0].action.type).toBe("plugin");
-      expect(stepActions[1].action.type).toBe("form");
-      expect(stepActions[2].action.type).toBe("calculation");
-      expect(stepActions[3].action.type).toBe("plugin");
+      expect(stepActions[1].action.type).toBe("message");
+      expect(stepActions[2].action.type).toBe("checklist");
+      expect(stepActions[3].action.type).toBe("form");
+      expect(stepActions[4].action.type).toBe("calculation");
+      expect(stepActions[5].action.type).toBe("plugin");
     });
   });
   describe("Transition from step 1 to step 2", () => {
