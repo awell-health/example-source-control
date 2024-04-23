@@ -544,6 +544,46 @@
   {
     "type": "data_point_definition",
     "data_point_definition": {
+      "_key": "xjUdrKvscUmq-awell_pathwayCompleted-pathway_definition_id",
+      "category": "extension_webhook",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-23T12:45:26.180Z"
+      },
+      "definition_id": "xjUdrKvscUmq-awell_pathwayCompleted-pathway_definition_id",
+      "key": "pathway_definition_id",
+      "source_definition_id": "xjUdrKvscUmq-awell_pathwayCompleted",
+      "valueType": "string",
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-23T12:45:26.180Z"
+      },
+      "qualified_key": "awell.pathwayCompleted.pathway_definition_id"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "xjUdrKvscUmq-awell_pathwayCompleted-complete_date",
+      "category": "extension_webhook",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-23T12:45:26.180Z"
+      },
+      "definition_id": "xjUdrKvscUmq-awell_pathwayCompleted-complete_date",
+      "key": "complete_date",
+      "source_definition_id": "xjUdrKvscUmq-awell_pathwayCompleted",
+      "valueType": "date",
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-23T12:45:26.180Z"
+      },
+      "qualified_key": "awell.pathwayCompleted.complete_date"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
       "_key": "c88enO1VGE1m-ACTIVATION",
       "definition_id": "c88enO1VGE1m-ACTIVATION",
       "key": "ActivationDate",

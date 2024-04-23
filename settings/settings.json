@@ -16,7 +16,7 @@
         "date": "2023-11-30T15:52:36.795Z"
       },
       "last_updated": {
-        "date": "2024-04-13T03:54:28.588Z",
+        "date": "2024-04-23T12:45:26.180Z",
         "user_id": "DlyKaTavL2CUsGNtPYO_1"
       },
       "plugins": {
@@ -94,6 +94,20 @@
             "label": "Test mode",
             "obfuscated": false,
             "value": "Yes"
+          }
+        },
+        "awell": {
+          "apiUrl": {
+            "label": "API url",
+            "value": "https://api.development.awellhealth.com/orchestration/m2m/graphql",
+            "obfuscated": false,
+            "id": "Z0i1loIOf6wk"
+          },
+          "apiKey": {
+            "label": "API key",
+            "value": "U2FsdGVkX1+ICxW9W+HvFHOhhC/8WQM7DyvXB9DMPSXDfHNGK6oQrNPZg0G6dciqzfT/98h2DJFPrCzi9Sa4TA==",
+            "obfuscated": true,
+            "id": "Fa2cKsrR55QL"
           }
         }
       }

@@ -36,5 +36,43 @@
         "date": "2024-04-08T23:41:25.581Z"
       }
     }
+  },
+  {
+    "type": "extension_webhook",
+    "extension_webhook": {
+      "_key": "xjUdrKvscUmq-awell_pathwayStart",
+      "definition_id": "xjUdrKvscUmq-awell_pathwayStart",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-23T12:45:26.180Z"
+      },
+      "extension": "awell",
+      "webhook_key": "pathwayStart",
+      "endpoint_url": "awell/webhook/xjUdrKvscUmq-awell_pathwayStart",
+      "pathway_definition_id": "xjUdrKvscUmq",
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-23T12:45:26.180Z"
+      }
+    }
+  },
+  {
+    "type": "extension_webhook",
+    "extension_webhook": {
+      "_key": "xjUdrKvscUmq-awell_pathwayCompleted",
+      "definition_id": "xjUdrKvscUmq-awell_pathwayCompleted",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-23T12:45:26.180Z"
+      },
+      "extension": "awell",
+      "webhook_key": "pathwayCompleted",
+      "endpoint_url": "awell/webhook/xjUdrKvscUmq-awell_pathwayCompleted",
+      "pathway_definition_id": "xjUdrKvscUmq",
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-23T12:45:26.180Z"
+      }
+    }
   }
 ]

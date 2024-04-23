@@ -85,103 +85,6 @@
   {
     "type": "action",
     "action": {
-      "_key": "n8Fq5ly2ik5L",
-      "definition_id": "n8Fq5ly2ik5L",
-      "title": "Add PHQ-9 score to chart",
-      "step_definition_id": "c88enO1VGE1m",
-      "stakeholder_definition_ids": [],
-      "location_definition_ids": [],
-      "created": {
-        "user_id": "DlyKaTavL2CUsGNtPYO_1",
-        "date": "2024-04-12T22:35:50.152Z"
-      },
-      "type": "plugin",
-      "plugin_key": "elation",
-      "plugin_action_key": "createNonVisitNote",
-      "plugin_fields": [
-        {
-          "description": "",
-          "id": "patientId",
-          "label": "Patient ID",
-          "required": true,
-          "type": "numeric",
-          "value": "142340859953153",
-          "options": {
-            "data_point_definition_ids": []
-          }
-        },
-        {
-          "description": "The author of a note. Should be the ID of a User in Elation.",
-          "id": "authorId",
-          "label": "Author",
-          "required": true,
-          "type": "numeric",
-          "value": "141127177601026",
-          "options": {
-            "data_point_definition_ids": []
-          }
-        },
-        {
-          "id": "category",
-          "label": "Category",
-          "description": "The Category of a note, defaults to \"Problem\". Read the extension documentation for the list of possible values.",
-          "type": "string",
-          "required": false
-        },
-        {
-          "description": "Comma-separated list of tags IDs",
-          "id": "tags",
-          "label": "Tags",
-          "options": {
-            "data_point_definition_ids": []
-          },
-          "required": false,
-          "type": "string",
-          "value": ""
-        },
-        {
-          "description": "Text of a note",
-          "id": "text",
-          "label": "Text",
-          "options": {
-            "slate": "[{\"type\":\"p\",\"children\":[{\"text\":\"\\\"Echo\\\" PHQ-9 Score: \"},{\"type\":\"dynamic-variable\",\"variableId\":\"UoEhhIJEFqQs\",\"value\":\"PHQ 9 Score\",\"children\":[{\"text\":\"{{{dynamic_variable:UoEhhIJEFqQs}}}\"}],\"status\":\"VALID\"},{\"text\":\"\"}]}]",
-            "stakeholder_ids": [],
-            "dynamic_variable_ids": [
-              "UoEhhIJEFqQs"
-            ],
-            "constant_ids": []
-          },
-          "required": true,
-          "type": "text",
-          "value": "\"Echo\" PHQ-9 Score: {{{dynamic_variable:UoEhhIJEFqQs}}}"
-        }
-      ],
-      "extension_data_points": [
-        {
-          "key": "nonVisitNoteId",
-          "valueType": "number"
-        },
-        {
-          "key": "nonVisitNoteBulletId",
-          "valueType": "number"
-        }
-      ],
-      "extension_data_point_mappings": [
-        {
-          "extension_data_point_key": "nonVisitNoteId",
-          "id": "sClKl_7otCuM",
-          "data_point_definition_id": "0zqNNgql7gB6"
-        }
-      ],
-      "last_updated": {
-        "date": "2024-04-13T04:28:45.593Z",
-        "user_id": "DlyKaTavL2CUsGNtPYO_1"
-      }
-    }
-  },
-  {
-    "type": "action",
-    "action": {
       "_key": "2VxVXQT2WYIx",
       "definition_id": "2VxVXQT2WYIx",
       "title": "Get Patient",
@@ -307,7 +210,7 @@
         }
       ],
       "last_updated": {
-        "date": "2024-04-13T00:16:43.240Z",
+        "date": "2024-04-23T12:47:31.436Z",
         "user_id": "DlyKaTavL2CUsGNtPYO_1"
       }
     }
@@ -357,6 +260,141 @@
       ],
       "last_updated": {
         "date": "2024-04-15T03:03:41.559Z",
+        "user_id": "DlyKaTavL2CUsGNtPYO_1"
+      }
+    }
+  },
+  {
+    "type": "action",
+    "action": {
+      "_key": "XNXMP_y4302w",
+      "definition_id": "XNXMP_y4302w",
+      "title": "Update patient",
+      "step_definition_id": "c88enO1VGE1m",
+      "stakeholder_definition_ids": [],
+      "location_definition_ids": [],
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-23T12:45:35.741Z"
+      },
+      "type": "plugin",
+      "plugin_key": "awell",
+      "plugin_action_key": "updatePatient",
+      "plugin_fields": [
+        {
+          "id": "patientCode",
+          "label": "Patient code",
+          "required": false,
+          "type": "string",
+          "value": "142340859953153",
+          "options": {
+            "data_point_definition_ids": []
+          }
+        },
+        {
+          "id": "firstName",
+          "label": "First name",
+          "options": {
+            "data_point_definition_ids": [
+              "L5NlpEnpQOKy"
+            ]
+          },
+          "required": false,
+          "type": "string",
+          "value": "{{data_point:L5NlpEnpQOKy}}"
+        },
+        {
+          "id": "lastName",
+          "label": "Last name",
+          "required": false,
+          "type": "string",
+          "value": "{{data_point:2LxNZWHlcBr6}}",
+          "options": {
+            "data_point_definition_ids": [
+              "2LxNZWHlcBr6"
+            ]
+          }
+        },
+        {
+          "id": "email",
+          "label": "Email",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "birthDate",
+          "label": "Birth date",
+          "type": "date",
+          "required": false
+        },
+        {
+          "id": "mobilePhone",
+          "label": "Mobile phone",
+          "type": "string",
+          "stringType": "phone",
+          "required": false
+        },
+        {
+          "id": "phone",
+          "label": "Phone",
+          "type": "string",
+          "stringType": "phone",
+          "required": false
+        },
+        {
+          "id": "preferredLanguage",
+          "label": "Preferred language",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "sex",
+          "label": "Sex",
+          "description": "Sex code as defined by ISO standard IEC_5218: \"NOT_KNOWN\", \"MALE\" or \"FEMALE\"",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "city",
+          "label": "City",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "country",
+          "label": "Country",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "state",
+          "label": "State",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "street",
+          "label": "Street",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "zip",
+          "label": "ZIP",
+          "type": "string",
+          "required": false
+        },
+        {
+          "id": "nationalRegistryNumber",
+          "label": "National registry number",
+          "type": "string",
+          "required": false
+        }
+      ],
+      "extension_data_points": [],
+      "extension_data_point_mappings": [],
+      "last_updated": {
+        "date": "2024-04-23T12:47:07.808Z",
         "user_id": "DlyKaTavL2CUsGNtPYO_1"
       }
     }
