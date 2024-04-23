@@ -7,7 +7,7 @@ cases:
         name: phq9
         questions:
           - key: PHQ9_Q01
-            value: "2"
+            value: "1"
           - key: PHQ9_Q02
             value: "1"
           - key: PHQ9_Q03
@@ -45,6 +45,6 @@ cases:
         action: COMPLETE
       - type: step
         name: PHQ-9 over 10
-        action: COMPLETE
+        action: DISCARDED
       - type: careflow
         action: COMPLETE
