@@ -27,7 +27,7 @@ jobs:
         uses: awell-health/action-validate@v1.0.0-beta
         with:
           api_key: ${{ secrets.DEVELOPMENT_API_KEY }}
-          awell_endpoint: https://api.development.awellhealth.com/design/m2m/graphql
+          awell_environment: development
           filename: validation.yaml
           careflow_id: xjUdrKvscUmq
 
