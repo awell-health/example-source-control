@@ -606,6 +606,46 @@
   {
     "type": "data_point_definition",
     "data_point_definition": {
+      "_key": "xdT8JD4692Dr-ACTIVATION",
+      "definition_id": "xdT8JD4692Dr-ACTIVATION",
+      "key": "ActivationDate",
+      "source_definition_id": "xdT8JD4692Dr",
+      "category": "track",
+      "valueType": "date",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T13:01:56.851Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T13:01:56.851Z"
+      },
+      "qualified_key": "triggeredbyadatapoint.ActivationDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "xdT8JD4692Dr-COMPLETION",
+      "definition_id": "xdT8JD4692Dr-COMPLETION",
+      "key": "CompletionDate",
+      "source_definition_id": "xdT8JD4692Dr",
+      "category": "track",
+      "valueType": "date",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T13:01:56.851Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T13:01:56.851Z"
+      },
+      "qualified_key": "triggeredbyadatapoint.CompletionDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
       "_key": "c88enO1VGE1m-ACTIVATION",
       "definition_id": "c88enO1VGE1m-ACTIVATION",
       "key": "ActivationDate",
@@ -721,6 +761,46 @@
         "date": "2024-04-27T12:53:56.774Z"
       },
       "qualified_key": "BaselineDatapoint.ActivationDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "1q4snVBwVdyY-ACTIVATION",
+      "definition_id": "1q4snVBwVdyY-ACTIVATION",
+      "key": "ActivationDate",
+      "source_definition_id": "1q4snVBwVdyY",
+      "category": "step",
+      "valueType": "date",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T13:02:12.122Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T13:02:12.122Z"
+      },
+      "qualified_key": "EmptyStep.ActivationDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "1q4snVBwVdyY-COMPLETION",
+      "definition_id": "1q4snVBwVdyY-COMPLETION",
+      "key": "CompletionDate",
+      "source_definition_id": "1q4snVBwVdyY",
+      "category": "step",
+      "valueType": "date",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T13:02:12.122Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T13:02:12.122Z"
+      },
+      "qualified_key": "EmptyStep.CompletionDate"
     }
   },
   {

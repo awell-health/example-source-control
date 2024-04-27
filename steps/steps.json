@@ -88,5 +88,30 @@
         "user_id": "DlyKaTavL2CUsGNtPYO_1"
       }
     }
+  },
+  {
+    "type": "step",
+    "step": {
+      "_key": "1q4snVBwVdyY",
+      "type": "step",
+      "definition_id": "1q4snVBwVdyY",
+      "title": "Empty Step",
+      "key": "EmptyStep",
+      "label_definition_ids": [],
+      "action_definition_ids": [],
+      "track_definition_id": "xdT8JD4692Dr",
+      "coordinates": {
+        "x": 448,
+        "y": 224
+      },
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T13:02:12.122Z"
+      },
+      "last_updated": {
+        "date": "2024-04-27T13:02:20.694Z",
+        "user_id": "DlyKaTavL2CUsGNtPYO_1"
+      }
+    }
   }
 ]

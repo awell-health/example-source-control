@@ -23,5 +23,30 @@
         "user_id": "DlyKaTavL2CUsGNtPYO_1"
       }
     }
+  },
+  {
+    "type": "track",
+    "track": {
+      "_key": "xdT8JD4692Dr",
+      "definition_id": "xdT8JD4692Dr",
+      "title": "triggered by a datapoint",
+      "key": "triggeredbyadatapoint",
+      "start_coordinates": {
+        "x": 250,
+        "y": 250
+      },
+      "end_coordinates": {
+        "x": 800,
+        "y": 250
+      },
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T13:01:56.851Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T13:01:56.851Z"
+      }
+    }
   }
 ]
