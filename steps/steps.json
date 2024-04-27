@@ -63,5 +63,30 @@
         "user_id": "DlyKaTavL2CUsGNtPYO_1"
       }
     }
+  },
+  {
+    "type": "step",
+    "step": {
+      "_key": "Lh8wPirRDz1C",
+      "type": "step",
+      "definition_id": "Lh8wPirRDz1C",
+      "title": "Baseline Datapoint",
+      "key": "BaselineDatapoint",
+      "label_definition_ids": [],
+      "action_definition_ids": [],
+      "track_definition_id": "kRhySMoqI-6f",
+      "coordinates": {
+        "x": 944,
+        "y": 112
+      },
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T12:53:56.774Z"
+      },
+      "last_updated": {
+        "date": "2024-04-27T12:54:08.784Z",
+        "user_id": "DlyKaTavL2CUsGNtPYO_1"
+      }
+    }
   }
 ]

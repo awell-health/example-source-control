@@ -98,5 +98,55 @@
         "date": "2024-04-13T00:03:48.626Z"
       }
     }
+  },
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "TRFed_8zDAFB",
+      "definition_id": "TRFed_8zDAFB",
+      "origin": {
+        "type": "step",
+        "node_id": "c88enO1VGE1m"
+      },
+      "destination": {
+        "type": "step",
+        "node_id": "Lh8wPirRDz1C"
+      },
+      "rule_definition_id": "jmUGxMe1O5hF",
+      "default": false,
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T12:54:02.181Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T12:54:02.181Z"
+      }
+    }
+  },
+  {
+    "type": "transition",
+    "transition": {
+      "_key": "DiViRQyoPozB",
+      "definition_id": "DiViRQyoPozB",
+      "origin": {
+        "type": "step",
+        "node_id": "Lh8wPirRDz1C"
+      },
+      "destination": {
+        "type": "track_end",
+        "node_id": "kRhySMoqI-6f"
+      },
+      "rule_definition_id": "2R7NH5y9805p",
+      "default": false,
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T12:54:24.163Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T12:54:24.163Z"
+      }
+    }
   }
 ]

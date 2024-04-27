@@ -464,6 +464,28 @@
   {
     "type": "data_point_definition",
     "data_point_definition": {
+      "_key": "aqhlL6q_ywoY",
+      "definition_id": "aqhlL6q_ywoY",
+      "source_definition_id": "xjUdrKvscUmq",
+      "category": "pathway",
+      "key": "optional",
+      "valueType": "string",
+      "possibleValues": [],
+      "optional": true,
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T12:53:05.366Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T12:53:05.366Z"
+      },
+      "qualified_key": "optional"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
       "_key": "kRhySMoqI-6f-COMPLETION",
       "definition_id": "kRhySMoqI-6f-COMPLETION",
       "key": "CompletionDate",
@@ -659,6 +681,46 @@
         "date": "2024-04-13T00:01:23.766Z"
       },
       "qualified_key": "PHQ-9over10.CompletionDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "Lh8wPirRDz1C-COMPLETION",
+      "definition_id": "Lh8wPirRDz1C-COMPLETION",
+      "key": "CompletionDate",
+      "source_definition_id": "Lh8wPirRDz1C",
+      "category": "step",
+      "valueType": "date",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T12:53:56.774Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T12:53:56.774Z"
+      },
+      "qualified_key": "BaselineDatapoint.CompletionDate"
+    }
+  },
+  {
+    "type": "data_point_definition",
+    "data_point_definition": {
+      "_key": "Lh8wPirRDz1C-ACTIVATION",
+      "definition_id": "Lh8wPirRDz1C-ACTIVATION",
+      "key": "ActivationDate",
+      "source_definition_id": "Lh8wPirRDz1C",
+      "category": "step",
+      "valueType": "date",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T12:53:56.774Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T12:53:56.774Z"
+      },
+      "qualified_key": "BaselineDatapoint.ActivationDate"
     }
   },
   {

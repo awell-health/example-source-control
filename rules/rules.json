@@ -90,6 +90,47 @@
   {
     "type": "rule",
     "rule": {
+      "_key": "jmUGxMe1O5hF",
+      "definition_id": "jmUGxMe1O5hF",
+      "conditions": [
+        {
+          "id": "MrKnKXvT-oWS",
+          "operand": null,
+          "operator": "is_not_empty",
+          "reference": "aqhlL6q_ywoY"
+        }
+      ],
+      "boolean_operator": "and",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T12:54:02.181Z"
+      },
+      "last_updated": {
+        "date": "2024-04-27T12:54:20.425Z",
+        "user_id": "DlyKaTavL2CUsGNtPYO_1"
+      }
+    }
+  },
+  {
+    "type": "rule",
+    "rule": {
+      "_key": "2R7NH5y9805p",
+      "definition_id": "2R7NH5y9805p",
+      "conditions": [],
+      "boolean_operator": "and",
+      "created": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T12:54:24.163Z"
+      },
+      "last_updated": {
+        "user_id": "DlyKaTavL2CUsGNtPYO_1",
+        "date": "2024-04-27T12:54:24.163Z"
+      }
+    }
+  },
+  {
+    "type": "rule",
+    "rule": {
       "_key": "z7zI8ektHO-I",
       "definition_id": "z7zI8ektHO-I",
       "conditions": [
